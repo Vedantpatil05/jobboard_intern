@@ -1,0 +1,45 @@
+{
+  "user_uid": "ed66c09841a773130",
+  "name": "kaushal",
+  "email": "gharatkaushal05@gmail.com",
+  "interests": [
+    "coding",
+    "design"
+  ],
+  
+  "roadmap_skills": [
+    "Style",
+    "Design",
+    "Animation",
+    "Flexbox",
+    "Grid",
+    "Hoisting",
+    "Scope",
+    "Declaration",
+    "Permission",
+    "Sensor",
+    "Camera",
+    "Integration",
+    "Positioning",
+    "Awareness",
+    "Differentiation",
+    "Identity",
+    "Strategy"
+  ],
+
+  "form_input": {
+    "education_level": "Undergraduate",
+    "stream": "Computer Science",
+    "job_role": "Frontend Developer",
+    "experience_years": 1,
+    "skills": [
+      "React",
+      "TailwindCSS",
+      "JavaScript",
+      "TypeScript",
+      "Next-Js",
+      "Mongo-DB",
+      "Nodejs"
+    ]
+  }
+}

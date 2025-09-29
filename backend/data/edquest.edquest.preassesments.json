@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6790d71fb0290775fa3af5f9"
+  },
+  "user_uid": "ed66c09841a773130",
+  "personality_scores": {
+    "introvert": 46,
+    "extrovert": 54
+  },
+  "personality_category_scores": {
+    "interpersonal_skills": 90,
+    "stress_handling": 60,
+    "leadership": 80,
+    "dominance": 95,
+    "influence": 80,
+    "agreeableness": 85,
+    "openness": 80,
+    "conscientiousness": 90
+  },
+  "soft_skill_scores": {
+    "communication": 70,
+    "teamwork_and_collaboration": 80,
+    "problem_solving": 90,
+    "leadership": 80,
+    "emotional_intelligence": 90,
+    "adaptability_and_flexibility": 50,
+    "time_management": 80,
+    "work_ethic": 90,
+    "conflict_resolution": 90,
+    "interpersonal_skills": 90
+  },
+  "career_scores": {
+    "creating": 9,
+    "logical_thinking": 9,
+    "helping": 12,
+    "organizing": 8,
+    "persuading": 8
+  },
+  "diff_scores": {
+    "creating": 9,
+    "logical_thinking": 9,
+    "helping": 12,
+    "organizing": 8,
+    "persuading": 8
+  },
+  "field_scores": {
+    "coding": 10,
+    "design": 8
+  },
+  "additional_scores": {
+    "soft_skills": 10,
+    "marketing": 11,
+    "product": 7
+  },
+  "progress_count_scores": {
+    "skills": 14,
+    "knowledge": 13,
+    "application": 19
+  },
+  "progress_scores": {
+    "skills": 14,
+    "knowledge": 13,
+    "application": 19
+  },
+  "created_at": {
+    "$date": "2025-01-22T11:31:43.565Z"
+  },
+  "uid": "pre_asses5faf212ea1f09262",
+  "__v": 0
+}]

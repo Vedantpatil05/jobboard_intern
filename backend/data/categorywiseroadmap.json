@@ -1,0 +1,37 @@
+ [
+        {
+            "category": "design",
+            "total_roadmaps": 55,
+            "started_roadmaps": 4
+        },
+        {
+            "category": "coding",
+            "total_roadmaps": 181,
+            "started_roadmaps": 19
+        },
+        {
+            "category": "marketing",
+            "total_roadmaps": 36,
+            "started_roadmaps": 0
+        },
+        {
+            "category": "product",
+            "total_roadmaps": 35,
+            "started_roadmaps": 1
+        },
+        {
+            "category": "soft_skills",
+            "total_roadmaps": 30,
+            "started_roadmaps": 4
+        },
+        {
+            "category": "event",
+            "total_roadmaps": 4,
+            "started_roadmaps": 1
+        },
+        {
+            "category": "prompt_engineering",
+            "total_roadmaps": 21,
+            "started_roadmaps": 0
+        }
+    ]

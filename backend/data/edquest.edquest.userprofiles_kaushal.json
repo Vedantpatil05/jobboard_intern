@@ -1,0 +1,449 @@
+[{
+  "_id": {
+    "$oid": "66c098418d0c96c92f7f4d4f"
+  },
+  "user_uid": "ed66c09841a773130",
+  "email": "gharatkaushal05@gmail.com",
+  "username": "kaushal",
+  "is_oauth": true,
+  "is_verified": true,
+  "interests": [
+    "coding",
+    "design"
+  ],
+  "selected_avatar": "avatar7be2445503cd5039",
+  "available_avatars": [
+    {
+      "uid": "avatar15e357dc8137c508",
+      "is_new": false,
+      "quantity": 1,
+      "_id": {
+        "$oid": "66c098418d0c96c92f7f4d50"
+      }
+    },
+    {
+      "uid": "avatar2021b5104d58312b",
+      "is_new": false,
+      "quantity": 3,
+      "_id": {
+        "$oid": "66c098418d0c96c92f7f4d51"
+      }
+    },
+    {
+      "uid": "avatar1a606e5823e74209",
+      "is_new": false,
+      "quantity": 1,
+      "_id": {
+        "$oid": "66c098418d0c96c92f7f4d52"
+      }
+    },
+    {
+      "uid": "avatar99c3acbd34e3a7fe",
+      "is_new": false,
+      "quantity": 2,
+      "_id": {
+        "$oid": "66c09ab38d0c96c92f7f4e8a"
+      }
+    },
+    {
+      "uid": "avatar71f2ade429bc94aa",
+      "is_new": false,
+      "quantity": 1,
+      "_id": {
+        "$oid": "66cb02d1ef28a1541b3221d8"
+      }
+    },
+    {
+      "uid": "avataredb1b1427c3c75c6",
+      "is_new": false,
+      "quantity": 2,
+      "_id": {
+        "$oid": "66cb02ffef28a1541b3222bf"
+      }
+    },
+    {
+      "uid": "avatar245d0069f53e7dc5",
+      "is_new": false,
+      "quantity": 2,
+      "_id": {
+        "$oid": "66d03e642fe9c36640190606"
+      }
+    },
+    {
+      "uid": "avataracf053ea5aae4151",
+      "is_new": false,
+      "quantity": 2,
+      "_id": {
+        "$oid": "66d599aaf1d53705478ef8bb"
+      }
+    },
+    {
+      "uid": "avatar18086e290870a8a5",
+      "is_new": false,
+      "quantity": 2,
+      "_id": {
+        "$oid": "66d95dec2ab4f205db0549c7"
+      }
+    },
+    {
+      "uid": "avatar2ad154c0556a1241",
+      "is_new": false,
+      "quantity": 2,
+      "_id": {
+        "$oid": "66e145f0f595b2ba3efb95f4"
+      }
+    },
+    {
+      "uid": "avatar7be2445503cd5039",
+      "is_new": false,
+      "quantity": 1,
+      "_id": {
+        "$oid": "6707a8331d2bf2cf390624f4"
+      }
+    },
+    {
+      "uid": "avatarad4cdae482928b74",
+      "is_new": false,
+      "quantity": 2,
+      "_id": {
+        "$oid": "6718a223af98ec92f023f1a9"
+      }
+    }
+  ],
+  "ed_coins": 3759,
+  "spin_wheel": {
+    "attempts": 3,
+    "last_attempt": {
+      "$date": "2025-04-19T15:08:30.761Z"
+    },
+    "_id": {
+      "$oid": "66c098418d0c96c92f7f4d49"
+    }
+  },
+  "streak_count": {
+    "is_collected": false,
+    "count": 23,
+    "last_updated": {
+      "$date": "2025-08-14T00:00:00.000Z"
+    },
+    "uncollected_coins": 10,
+    "last_collected_count": 1,
+    "_id": {
+      "$oid": "66c098418d0c96c92f7f4d4a"
+    },
+    "longest_streak": 23
+  },
+  "level": "Novice",
+  "roadmap_progress": [
+    "prog1459ba5465a9ad35",
+    "prog7812e1bbaf578a12",
+    "prog56b190ba34ce6d76",
+    "progefd351c2b40ed4ca",
+    "prog974c1230db4196a9",
+    "progb5151a1e3f4a262e",
+    "prog1c5b5b2a0e9961d7",
+    "prog3a183482e7bafa63",
+    "prog5d0dcbb6eb2eb76d",
+    "progc4ded9b7aa1d9833",
+    "proge96a8456945e726b",
+    "prog30d1eb3823a533e0",
+    "proga0770a215e8a546d",
+    "prog4c923657f4e7bbf3",
+    "progdbc841082064d170",
+    "prog114c583cdd247a0f",
+    "prog800f5c39c548361c",
+    "prog586fb49d24caf684",
+    "prog8ae3590742ba79da",
+    "progd5a1fdbb621fc5af",
+    "prog1ed8d7be239a350c",
+    "progb0a57f825ddb4f76",
+    "prog3ad81e243b7bd1ec",
+    "progfcf93392a242993f",
+    "prog01804f3c1a2805c7",
+    "prog70d3f09dd36dc40d",
+    "prog4153cdbb6949c1a7",
+    "prog15be3be04cad5631",
+    "prog8a8e2d85bb68bf85",
+    "prog459686f2d1887a7c",
+    "prog9dd8f65f3762e6f1",
+    "prog2696a94c6e898b82",
+    "progb129a361ee3aeab3",
+    "proge1b48aa56a199f8a",
+    "prog391182726a976394",
+    "prog60f334048a6bb509",
+    "prog07392f2ecca54526",
+    "prog6079e738139ee1eb",
+    "prog85987bcba1817d66",
+    "prog3e7f9a26fb353fe8",
+    "progc5e3619ccedcd122",
+    "prog4a031e7f0d233651",
+    "prog8a12379ef7e01ec6",
+    "progd982b3e7c1cd1930",
+    "prog15314aa985a4c834",
+    "prog08d98442fbd95e3c",
+    "prog63d7197b6a823450",
+    "prog362d52d648588ca3",
+    "progbb2a723ea6b1640e",
+    "prog231611c8348e8251",
+    "prog7036633cf93298d2",
+    "prog504d0552012d7926",
+    "prog037706ee8260a71b",
+    "prog0e0dc0bbeede92d9",
+    "progb74efd2a22edfb49",
+    "prog57d3703d3e1a6bef",
+    "progf1a6f487ecbfb794",
+    "progdc3a43bf1cf08690",
+    "prog94fecc90f47aead7",
+    "progf336ea07b741acc3",
+    "prog68409e5ba7152919",
+    "progad8bb3bd5e05a20c",
+    "prog8be6a02a66777a2f",
+    "prog80063cd69b6a8bc0",
+    "progcad92e787f263c5b",
+    "progef853084a1951f97",
+    "prog2f393dd06b8ae9b4",
+    "prog4d7f0e6ebb9b55f1",
+    "prog0cb2940ae796e599",
+    "proge7f9b894c935f32e",
+    "prog632807cec2339222",
+    "prog455e8d6d0c80753e",
+    "prog44ef03cb24485915",
+    "prog408f02903ac708a7",
+    "prog4f9be6d18706cd4a",
+    "prog346c225fb1bfd7f4",
+    "prog993537de32349b66",
+    "prog7596a42eb94c3127",
+    "prog6bfb9312ebc28627",
+    "progce6b875788e35bd1",
+    "progf1f053460e12df9a",
+    "prog5bab451d08f0110a",
+    "proga1066334e6395e37",
+    "prog197fa800c3c7636b",
+    "prog25309491e0e2974e",
+    "progbce0a24c94d9d004",
+    "progf15c19d2b403bea7",
+    "prog5bcfee359a5196fa",
+    "prog772988ea91e7848e",
+    "prog4f02c567d1547134",
+    "prog8e56248f70f5e920",
+    "prog04bbcbc2f7d9a0c6",
+    "prog5cd8c59cc021f7dc",
+    "prog7197ea9c98c813a1",
+    "prog7616c79291ba4ee8",
+    "progf6e3c9b8495ffa0d",
+    "prog790dcebd5da532e9",
+    "prog4f254f9d925bb8c0",
+    "progc6ad55cc2a4adfa8",
+    "prog82d5624fa72ac35f",
+    "proga412638d8ebae0b5",
+    "proga0fa2d5071a0f0b7",
+    "prog77b05744a934cebd"
+  ],
+  "total_completion": {
+    "read": 1155,
+    "video": 563,
+    "quiz": 38,
+    "task": 3,
+    "_id": {
+      "$oid": "66c098418d0c96c92f7f4d4b"
+    }
+  },
+  "assessment": {
+    "skill": 0,
+    "application": 0,
+    "knowledge": 0,
+    "_id": {
+      "$oid": "66c098418d0c96c92f7f4d4c"
+    }
+  },
+  "badges": {
+    "design": 0,
+    "coding": 10,
+    "marketing": 0,
+    "product": 1,
+    "soft_skills": 1,
+    "event": 2,
+    "_id": {
+      "$oid": "66c098418d0c96c92f7f4d4d"
+    }
+  },
+  "user_reward": {
+    "info_bytes": [
+      {
+        "info_byte": "infobyte9c326dcd8ec225d5",
+        "reward_received_at": {
+          "$date": "2025-04-03T09:34:58.961Z"
+        },
+        "reward_opened_at": null,
+        "_id": {
+          "$oid": "67ee56423ec61ecd06379ff1"
+        }
+      },
+      {
+        "info_byte": "infobytefb68aee74cb88e8d",
+        "reward_received_at": {
+          "$date": "2025-04-13T12:26:12.505Z"
+        },
+        "reward_opened_at": null,
+        "_id": {
+          "$oid": "67fbad6431e159bfd0bcfe56"
+        }
+      }
+    ],
+    "buddy_review": 0,
+    "_id": {
+      "$oid": "66c098418d0c96c92f7f4d4e"
+    }
+  },
+  "uid": "userprof80bce0057d259861",
+  "__v": 320,
+  "dob": {
+    "$date": "2002-01-27T00:00:00.000Z"
+  },
+  "first_name": "Kaushal",
+  "gender": "male",
+  "last_name": "Gharat",
+  "mobile_number": "9637631402",
+  "profession": "professional",
+  "wow_games": [
+    {
+      "name": "world-of-words",
+      "attempts": 3,
+      "last_attempt": {
+        "$date": "2025-07-01T04:58:05.127Z"
+      },
+      "total_attempts": 69,
+      "_id": {
+        "$oid": "66d99927f595b2ba3ee39cda"
+      }
+    }
+  ],
+  "notifications": [
+    {
+      "title": "🚀 Journey Unlocked!",
+      "description": "Great choice!  Let’s kickstart your journey today! 🚀",
+      "path": "roadmap/blt2b3de4a425097cdf",
+      "uid": "noti5d94d501b9dcc5a7",
+      "_id": {
+        "$oid": "687e2e07f3b75930e80fdd66"
+      },
+      "createdAt": {
+        "$date": "2025-07-21T12:09:43.386Z"
+      }
+    },
+    {
+      "title": "🚀 Journey Unlocked!",
+      "description": "Great choice!  Let’s kickstart your journey today! 🚀",
+      "path": "roadmap/bltf5c96d3003e097a3",
+      "uid": "noti94b734176b1d74c4",
+      "_id": {
+        "$oid": "68851d38f3b75930e83575d9"
+      },
+      "createdAt": {
+        "$date": "2025-07-26T18:23:52.421Z"
+      }
+    },
+    {
+      "title": "🚀 Journey Unlocked!",
+      "description": "Great choice!  Let’s kickstart your journey today! 🚀",
+      "path": "roadmap/bltb92e75e9f479208e",
+      "uid": "notidbad4b11a4251f15",
+      "_id": {
+        "$oid": "68875a8672dd415442402a57"
+      },
+      "createdAt": {
+        "$date": "2025-07-28T11:09:58.004Z"
+      }
+    },
+    {
+      "title": "🔥 Keep the Streak Alive!",
+      "description": "You’ve hit a 23-day streak! 🎊 Claim your reward today!",
+      "path": "dashboard",
+      "uid": "notib112aceeb4a787c6",
+      "_id": {
+        "$oid": "689d7f3f9f26d86a942ab47d"
+      },
+      "createdAt": {
+        "$date": "2025-08-14T06:16:31.617Z"
+      }
+    }
+  ],
+  "pinned_roadmaps": {
+    "design": [],
+    "coding": [
+      "blt98f7815be0dbbfad",
+      "blt8de5117b35330f3c",
+      "bltb97970a7352265b9"
+    ],
+    "soft_skills": [],
+    "marketing": [],
+    "product": [],
+    "event": []
+  },
+  "pre_assessment": {
+    "skill": {
+      "initial": 15,
+      "current": 16
+    },
+    "application": {
+      "initial": 19,
+      "current": 20
+    },
+    "knowledge": {
+      "initial": 33,
+      "current": 34
+    },
+    "lastAttempt": {
+      "$date": "2025-01-22T11:31:43.565Z"
+    },
+    "_id": {
+      "$oid": "6746f2aa385044f4fee858ea"
+    }
+  },
+  "tutorials": {
+    "wow": false,
+    "quiz": false,
+    "roadmap_archive": false,
+    "roadmap": false,
+    "dashboard": false,
+    "skip": true,
+    "_id": {
+      "$oid": "6746f2aa385044f4fee858f1"
+    }
+  },
+  "role": "user",
+  "role_badges": {
+    "design": [],
+    "coding": [],
+    "marketing": [],
+    "product": [],
+    "soft_skills": [],
+    "event": [],
+    "prompt_engineering": []
+  },
+  "role_wise_pinned_roadmaps": {
+    "design": [],
+    "coding": [],
+    "soft_skills": [],
+    "marketing": [],
+    "product": [],
+    "event": []
+  },
+  "roles": [
+    "user"
+  ],
+  "role_roadmap_progress": [
+    "roleprog066d1d4bc2437946"
+  ],
+  "organisation_data": {
+    "department": "",
+    "band": "",
+    "designation": "",
+    "_id": {
+      "$oid": "6852ba1e775d31716bf8ac4b"
+    }
+  },
+  "updatedAt": {
+    "$date": "2025-08-14T06:16:31.623Z"
+  }
+}]
