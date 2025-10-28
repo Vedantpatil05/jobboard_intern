@@ -4,7 +4,7 @@ import userRoutes from "./routes/user.js";
 import statsRoutes from "./routes/stats.js";
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // ✅ Middleware: JSON body parser
 app.use(express.json());

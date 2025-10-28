@@ -1,8 +1,22 @@
 import type React from "react"
 // Root layout with navigation header
 import "./globals.css"
-import Link from "next/link"
-import AvatarMenu from "@/components/AvatarMenu"
+import { TopBarProfile } from "@/components/topbar-profile"
+
+async function getUserData() {
+  try {
+    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:5001"
+    const res = await fetch(`${backendUrl}/api/match/match`, {
+      cache: "no-store",
+    })
+    if (!res.ok) throw new Error("Failed to fetch user data")
+    const data = await res.json()
+    return data.user || null
+  } catch (err) {
+    console.error("Error fetching user data:", err)
+    return null
+  }
+}
 
 export const metadata = {
   title: "EdQuest Job Board",
@@ -10,31 +24,30 @@ export const metadata = {
   generator: "v0.app",
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  const logo = process.env.NEXT_PUBLIC_FIGMA_NAV_LOGO_URL || "/job-board-logo.png"
+  const user = await getUserData()
 
   return (
     <html lang="en">
       <body className="bg-gray-50 text-gray-900 antialiased">
         <header className="border-b border-gray-200 bg-white shadow-sm">
-          <nav className="mx-auto max-w-7xl px-4 h-16 flex items-center justify-between">
-            {/* 👇 Change href to /home instead of / */}
-            <Link href="/home" className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-sm">JS</span>
-              </div>
-              <span className="font-bold text-xl text-gray-900">Job Board</span>
-            </Link>
-
-            <AvatarMenu />
+          <nav className="mx-auto max-w-7xl px-4 py-4 flex items-center justify-between">
+            <div className="rounded-full bg-[var(--surface)] shadow-neo px-5 py-3 text-sm text-[var(--text)]">
+              Job Board
+            </div>
+            <TopBarProfile user={user} />
           </nav>
         </header>
 
-        <main>{children}</main>
+        <main className="min-h-screen bg-[var(--bg)] text-[var(--text)]">
+          <div className="mx-auto max-w-6xl px-6 py-6">
+            {children}
+          </div>
+        </main>
       </body>
     </html>
   )

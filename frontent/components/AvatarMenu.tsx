@@ -19,7 +19,7 @@ export default function AvatarMenu() {
       try {
         // ✅ Fetch user data from backend API
         const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:5000"
-        const response = await fetch(`/api/match/match`)
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:5001'}/api/match/match`)
         
         if (response.ok) {
           const data = await response.json()

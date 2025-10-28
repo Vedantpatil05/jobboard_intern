@@ -97,7 +97,7 @@ export default function ProfilePage() {
     };
 
     try {
-      const res = await fetch("/api/user", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:5001'}/api/user`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
@@ -107,7 +107,10 @@ export default function ProfilePage() {
 
       console.log("Saved profile:", await res.json());
 
-      // 🚀 Redirect to landing page
+      // Reset saving state before redirect
+      setSaving(false);
+
+      // 🚀 Redirect to home page
       router.push("/home");
     } catch (err: any) {
       console.error(err);

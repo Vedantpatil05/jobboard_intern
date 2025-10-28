@@ -369,11 +369,12 @@
     },
     "form_input": {
       "education_level": "Undergraduate",
-      "stream": "Information Technology",
+      "stream": "Computer Science",
       "job_role": "Frontend Developer",
-      "experience_years": 0,
+      "experience_years": 1,
       "skills": [
-        "React"
+        "Next.js",
+        "TypeScript"
       ]
     }
   }
